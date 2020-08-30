@@ -1,4 +1,1 @@
-class CreateRecipes.rb < ActiveRecord::Migration
-  def change
-  end
-end
+rake db:create_migration NAME=create_movies
